@@ -1,0 +1,7 @@
+Sharepoint notes
+
+How to get ids :
+				
+				var ids = document.getElementsByClassName("ms-formbody")
+				for(var i = 0 ; i < ids.length -1 ; i++) {spans.push(ids[i].querySelector('[dir="none"]'))}
+				for(var i = 0 ; i < spans.length; i++) {console.log(spans[i].firstChild.id)}
